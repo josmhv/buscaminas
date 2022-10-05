@@ -260,7 +260,7 @@ class TileMap {
 
       map.tiles[map.getIndex(randX + 1, randY + 1)] = 1;
 
-      this.bomb(randX, randY);
+      // this.bomb(randX, randY);
       
       x.push(randX);
       y.push(randY);
