@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BuscaMinas</title>
+    <link rel="stylesheet" href="canvas.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1 id="title">BUSCAMINAS</h1>
+      <div class="bomb-label"></div>
+      <canvas id="canvas" width="500" height="500"></canvas>
+    </div>
+    <div class="wol_screen hidden"></div>
+    <div class="overlay hidden">
+      <div class="reset">
+	<button type="button" class="btn btn-dark reset-btn" >Reset</button>
+      </div>
+    </div>
+    <div class="imagenes">
+      <img src="./imagenes/0.png" id="tile-0" class="hidden" />
+      <img src="./imagenes/1.png" id="tile-1" class="hidden" />
+      <img src="./imagenes/2.png" id="tile-2" class="hidden" />
+      <img src="./imagenes/3.png" id="tile-3" class="hidden" />
+      <img src="./imagenes/11.png" id="tile-11" class="hidden" />
+      <img src="./imagenes/12.png" id="tile-12" class="hidden" />
+      <img src="./imagenes/13.png" id="tile-13" class="hidden" />
+      <img src="./imagenes/14.png" id="tile-14" class="hidden" />
+      <img src="./imagenes/15.png" id="tile-15" class="hidden" />
+    </div>
+
+    <button type="button" class="btn btn-dark reset-btn2" >Reset</button>
+
+    <script defer src="./canvas.js"></script>
+    
+  </body>
+</html>
